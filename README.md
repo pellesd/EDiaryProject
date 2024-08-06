@@ -1,12 +1,9 @@
-# EnaploVJSRZD
-#### Ez a Repository Pelles Dorottya Szakdolgozatához tartozik.
+# EDiary PRoject
+#### This repository contains my BSc thesis
 
 ## Backend:
-- A backend ASP.Net6 core alkalmazás, amely a \enaplo mappában található.
-- SQL szerver itt található: nlenaplosql.database.windows.net
-  (de ez csak az én kolis és otthoni ip címeimről érhető el, illetve a webszerver számára)
-- Web applikáció, Swagger UI itt található: https://nlenaplo.azurewebsites.net/index.html
+- The backend ASP. Net6 core application, which is located in the \enaplo folder.
 
 ## Frontend:
-- Diák mobil applikáció \AndroidStudent mappában található
-- Tanár mobil applikáció \AndroidTeacher mappában található
+- Student androis mobil application can be found in \AndroidStudent directory
+- Teacher android mobil application can be found in \AndroidTeacher directory
