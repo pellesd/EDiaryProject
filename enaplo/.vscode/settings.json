@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/540e37dc-033d-4bf8-9f3e-7fd4c45b122f/AppServices/subscriptions/540e37dc-033d-4bf8-9f3e-7fd4c45b122f/resourceGroups/nlenaplo/providers/Microsoft.Web/sites/nlenaplo",
+    "appService.deploySubpath": "publish"
+}

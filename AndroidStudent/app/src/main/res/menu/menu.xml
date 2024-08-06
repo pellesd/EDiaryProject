@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:title="Általános">
+        <menu>
+            <item
+                android:id="@+id/homeFragment"
+                android:icon="@drawable/ic_baseline_message_24"
+                android:title="@string/messages" />
+            <item
+                android:id="@+id/canteenFragment"
+                android:icon="@drawable/ic_baseline_food_24"
+                android:title="@string/canteen" />
+            <item
+                android:id="@+id/timetableFragment"
+                android:icon="@drawable/ic_baseline_timetable_24"
+                android:title="@string/timetable" />
+        </menu>
+    </item>
+    <item android:title="Értékeléseim">
+        <menu>
+            <item
+                android:id="@+id/sumGradesFragment"
+                android:icon="@drawable/grade"
+                android:title="@string/grades" />
+            <item
+                android:id="@+id/lateFragment"
+                android:icon="@drawable/ic_baseline_late_24"
+                android:title="@string/late" />
+            <item
+                android:id="@+id/absenceFragment"
+                android:icon="@drawable/ic_baseline_sick_24"
+                android:title="@string/absences" />
+            <item
+                android:id="@+id/propitiousFragment"
+                android:icon="@drawable/ic_baseline_good_24"
+                android:title="@string/propitious" />
+            <item
+                android:id="@+id/admonitoryFragment"
+                android:icon="@drawable/ic_baseline_bad_24"
+                android:title="@string/admonitory" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/examFragment"
+        android:icon="@drawable/ic_baseline_school_24"
+        android:title="@string/exams" />
+    <item
+        android:id="@+id/myClassFragment"
+        android:icon="@drawable/classroom"
+        android:title="@string/myClass" />
+    <item
+        android:icon="@drawable/ic_baseline_logout_24"
+        android:title="@string/logout" />
+</menu>

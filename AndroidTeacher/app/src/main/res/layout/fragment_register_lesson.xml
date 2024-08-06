@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/date_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:minHeight="40dp"
+            android:text="Dátum:"
+            android:textColor="@color/seconder_content"
+            app:layout_constraintEnd_toStartOf="@+id/guideline044"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:minHeight="40dp"
+            android:textColor="@color/seconder_content"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/guideline044"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:textColor="@color/seconder_content"
+            android:minHeight="40dp"
+            android:text="Nap:"
+            android:id="@+id/day_title"
+            app:layout_constraintEnd_toStartOf="@+id/guideline044"
+            app:layout_constraintTop_toBottomOf="@id/date_title" />
+
+        <TextView
+            android:id="@+id/day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:minHeight="40dp"
+            android:textColor="@color/seconder_content"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/guideline044"
+            app:layout_constraintTop_toTopOf="@+id/day_title" />
+
+        <TextView
+            android:id="@+id/number_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:minHeight="40dp"
+            android:text="Óraszám:"
+            android:textColor="@color/seconder_content"
+            app:layout_constraintEnd_toStartOf="@+id/guideline044"
+            app:layout_constraintTop_toBottomOf="@id/day_title" />
+
+        <TextView
+            android:id="@+id/number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:minHeight="40dp"
+            android:textColor="@color/seconder_content"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/guideline044"
+            app:layout_constraintTop_toTopOf="@+id/number_title" />
+
+        <TextView
+            android:id="@+id/teacher_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="10dp"
+            android:minHeight="40dp"
+            android:text="Tanár:"
+            android:textColor="@color/seconder_content"
+            app:layout_constraintEnd_toStartOf="@+id/guideline044"
+            app:layout_constraintTop_toBottomOf="@+id/group_title" />
+
+        <Spinner
+            android:id="@+id/teacher_spinner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:minWidth="90dp"
+            android:minHeight="40dp"
+            android:textColor="@color/seconder_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/guideline044"
+            app:layout_constraintTop_toTopOf="@+id/teacher_title" />
+
+        <TextView
+            android:id="@+id/subject_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:minHeight="40dp"
+            android:text="Tantárgy:"
+            android:textColor="@color/seconder_content"
+            app:layout_constraintEnd_toStartOf="@+id/guideline044"
+            app:layout_constraintTop_toBottomOf="@+id/number_title" />
+
+        <TextView
+            android:id="@+id/subject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:minHeight="40dp"
+            android:textColor="@color/seconder_content"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/guideline044"
+            app:layout_constraintTop_toTopOf="@+id/subject_title" />
+
+        <TextView
+            android:id="@+id/group_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="10dp"
+            android:minHeight="40dp"
+            android:text="Csoport:"
+            android:textColor="@color/seconder_content"
+            app:layout_constraintEnd_toStartOf="@+id/guideline044"
+            app:layout_constraintTop_toBottomOf="@id/subject_title" />
+
+        <Spinner
+            android:id="@+id/group_spinner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:minWidth="90dp"
+            android:minHeight="40dp"
+            android:textColor="@color/seconder_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/guideline044"
+            app:layout_constraintTop_toTopOf="@+id/group_title" />
+
+        <TextView
+            android:id="@+id/deleted_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:minHeight="40dp"
+            android:text="Törölt:"
+            android:textColor="@color/seconder_content"
+            app:layout_constraintEnd_toStartOf="@+id/guideline044"
+            app:layout_constraintTop_toBottomOf="@id/teacher_title" />
+
+        <Switch
+            android:id="@+id/deleted_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:minHeight="40dp"
+            android:textColor="@color/seconder_content"
+            android:trackTint="@color/dark_item_background"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/guideline044"
+            app:layout_constraintTop_toTopOf="@+id/deleted_title" />
+
+        <TextView
+            android:id="@+id/grade_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:minHeight="40dp"
+            android:text="Osztályzandó:"
+            android:textColor="@color/seconder_content"
+            app:layout_constraintEnd_toStartOf="@+id/guideline044"
+            app:layout_constraintTop_toBottomOf="@id/deleted_title" />
+
+        <Switch
+            android:id="@+id/grade_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:minHeight="40dp"
+            android:textColor="@color/seconder_content"
+            android:trackTint="@color/dark_item_background"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/guideline044"
+            app:layout_constraintTop_toTopOf="@+id/grade_title" />
+
+        <TextView
+            android:id="@+id/title_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:minHeight="40dp"
+            android:text="Óra címe:"
+            android:textColor="@color/seconder_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/grade_switch" />
+
+        <ScrollView
+            android:id="@+id/title_text_scroll"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/title_title">
+            <EditText
+                android:id="@+id/title_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:minWidth="90dp"
+                android:minHeight="40dp"
+                android:textColor="@color/seconder_content" />
+        </ScrollView>
+
+        <ProgressBar
+            android:id="@+id/loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="64dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="64dp"
+            android:theme="@style/ProgressBar"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.3" />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:enabled="false"
+            android:text="Küldés"
+            android:theme="@style/Button_Toolbar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/title_text_scroll" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline044"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.44" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.5" />
+
+        <Button
+            android:id="@+id/absence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/dark_background"
+            android:text="Hiányzások"
+            android:textSize="20dp"
+            android:theme="@style/Button_Toolbar"
+            app:layout_constraintEnd_toStartOf="@+id/guideline05"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/submit" />
+
+        <Button
+            android:id="@+id/late"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/dark_background"
+            android:text="Késések"
+            android:textSize="20dp"
+            android:theme="@style/Button_Toolbar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/guideline05"
+            app:layout_constraintTop_toBottomOf="@+id/submit" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

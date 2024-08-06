@@ -1,0 +1,158 @@
+Date : 2022-11-25 18:57:06
+Directory : c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo
+Total : 113 files,  27371 codes, 120 comments, 725 blanks, all 28216 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JSON       |         17 |     23,088 |          0 |         16 |     23,104 |
+| C#         |         91 |      4,199 |        120 |        702 |      5,021 |
+| XML        |          3 |         52 |          0 |          5 |         57 |
+| Properties |          2 |         32 |          0 |          2 |         34 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                                 | files      | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                                    |        113 |     27,371 |        120 |        725 |     28,216 |
+| Controllers                                                                                                                          |          5 |        548 |         50 |        110 |        708 |
+| DAL                                                                                                                                  |          1 |        672 |         10 |        247 |        929 |
+| Dtos                                                                                                                                 |         35 |        591 |          0 |         52 |        643 |
+| Dtos\Authentication                                                                                                                  |          2 |         22 |          0 |          2 |         24 |
+| Models                                                                                                                               |         30 |        881 |          6 |         98 |        985 |
+| Properties                                                                                                                           |          1 |         31 |          0 |          1 |         32 |
+| Repositories                                                                                                                         |         11 |      1,357 |         18 |        166 |      1,541 |
+| Repositories\Classes                                                                                                                 |          6 |      1,282 |         18 |        161 |      1,461 |
+| Repositories\Interfaces                                                                                                              |          5 |         75 |          0 |          5 |         80 |
+| bin                                                                                                                                  |          4 |      1,121 |          0 |          5 |      1,126 |
+| bin\Debug                                                                                                                            |          4 |      1,121 |          0 |          5 |      1,126 |
+| bin\Debug\net6.0                                                                                                                     |          4 |      1,121 |          0 |          5 |      1,126 |
+| obj                                                                                                                                  |         17 |     20,925 |         32 |         21 |     20,978 |
+| obj\Debug                                                                                                                            |          9 |     17,432 |         20 |         13 |     17,465 |
+| obj\Debug\net6.0                                                                                                                     |          9 |     17,432 |         20 |         13 |     17,465 |
+| obj\Release                                                                                                                          |          4 |         44 |         12 |          8 |         64 |
+| obj\Release\net6.0                                                                                                                   |          4 |         44 |         12 |          8 |         64 |
+| publish                                                                                                                              |          4 |      1,108 |          0 |          5 |      1,113 |
++--------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                                             | language   | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Controllers\BasicController.cs                                      | C#         |         45 |          0 |          8 |         53 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Controllers\StudentAuthController.cs                                | C#         |         26 |          3 |          5 |         34 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Controllers\StudentController.cs                                    | C#         |        130 |         16 |         30 |        176 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Controllers\TeacherAuthController.cs                                | C#         |         26 |          8 |          5 |         39 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Controllers\TeacherController.cs                                    | C#         |        321 |         23 |         62 |        406 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\DAL\ENAPLOContext.cs                                                | C#         |        672 |         10 |        247 |        929 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Dtos\AbsenceDto.cs                                                  | C#         |         26 |          0 |          1 |         27 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Dtos\AddGradeDto.cs                                                 | C#         |         21 |          0 |          2 |         23 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Dtos\Authentication\LoginDto.cs                                     | C#         |         11 |          0 |          1 |         12 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Dtos\Authentication\UserDto.cs                                      | C#         |         11 |          0 |          1 |         12 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Dtos\ClassDto.cs                                                    | C#         |         27 |          0 |          1 |         28 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Dtos\DateDto.cs                                                     | C#         |         13 |          0 |          1 |         14 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Dtos\ExamDto.cs                                                     | C#         |         13 |          0 |          1 |         14 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Dtos\FoodDto.cs                                                     | C#         |         22 |          0 |          1 |         23 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Dtos\GetGradeDto.cs                                                 | C#         |         15 |          0 |          2 |         17 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Dtos\GetLateDto.cs                                                  | C#         |         19 |          0 |          2 |         21 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Dtos\GradeDto.cs                                                    | C#         |         21 |          0 |          2 |         23 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Dtos\GradeSumDto.cs                                                 | C#         |         13 |          0 |          1 |         14 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Dtos\GradeTypeDto.cs                                                | C#         |          5 |          0 |          0 |          5 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Dtos\IntDto.cs                                                      | C#         |         10 |          0 |          1 |         11 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Dtos\IntStringDto.cs                                                | C#         |         15 |          0 |          2 |         17 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Dtos\JudgementDto.cs                                                | C#         |         17 |          0 |          1 |         18 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Dtos\LateDto.cs                                                     | C#         |         17 |          0 |          1 |         18 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Dtos\MessageDto.cs                                                  | C#         |         13 |          0 |          1 |         14 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Dtos\MessageTeacherDto.cs                                           | C#         |         15 |          0 |          1 |         16 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Dtos\MessageToTeacherDto.cs                                         | C#         |         13 |          0 |          1 |         14 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Dtos\MissingStudentsDto.cs                                          | C#         |         15 |          0 |          2 |         17 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Dtos\NameBoolDto.cs                                                 | C#         |         19 |          0 |          2 |         21 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Dtos\NewJudgementDto.cs                                             | C#         |         13 |          0 |          1 |         14 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Dtos\PostGradeDto.cs                                                | C#         |          9 |          0 |          0 |          9 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Dtos\PostLateDto.cs                                                 | C#         |         19 |          0 |          4 |         23 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Dtos\PostMissingDto.cs                                              | C#         |         19 |          0 |          4 |         23 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Dtos\PostRegisterLessonDto.cs                                       | C#         |         21 |          0 |          2 |         23 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Dtos\PreTeacherMessageDto.cs                                        | C#         |         17 |          0 |          1 |         18 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Dtos\RegisterLessonDto.cs                                           | C#         |         25 |          0 |          2 |         27 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Dtos\RegisterLessonKeysDto.cs                                       | C#         |         14 |          0 |          2 |         16 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Dtos\StringDto.cs                                                   | C#         |         12 |          0 |          1 |         13 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Dtos\TeacherGetGradeDto.cs                                          | C#         |         17 |          0 |          2 |         19 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Dtos\TeacherGradeSumDto.cs                                          | C#         |         17 |          0 |          1 |         18 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Dtos\TimetableDto.cs                                                | C#         |         38 |          0 |          3 |         41 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Dtos\ToGroupsMessageDto.cs                                          | C#         |         19 |          0 |          1 |         20 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Extensions.cs                                                       | C#         |         65 |          0 |          3 |         68 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Models\Absence.cs                                                   | C#         |         42 |          0 |          3 |         45 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Models\Admonitory.cs                                                | C#         |         25 |          0 |          3 |         28 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Models\AdmonitoryType.cs                                            | C#         |         21 |          0 |          4 |         25 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Models\Advertisement.cs                                             | C#         |         21 |          0 |          3 |         24 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Models\Canteen.cs                                                   | C#         |         20 |          0 |          2 |         22 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Models\Class.cs                                                     | C#         |         31 |          0 |          4 |         35 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Models\ClassRoom.cs                                                 | C#         |         19 |          0 |          4 |         23 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Models\Close.cs                                                     | C#         |         18 |          0 |          3 |         21 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Models\Day.cs                                                       | C#         |         14 |          0 |          2 |         16 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Models\DividendLesson.cs                                            | C#         |         59 |          1 |          3 |         63 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Models\Grade.cs                                                     | C#         |         36 |          0 |          4 |         40 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Models\GradeType.cs                                                 | C#         |         16 |          0 |          2 |         18 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Models\Group.cs                                                     | C#         |         27 |          0 |          3 |         30 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Models\GroupClass.cs                                                | C#         |         19 |          0 |          3 |         22 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Models\GroupMember.cs                                               | C#         |         20 |          0 |          2 |         22 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Models\Late.cs                                                      | C#         |         33 |          0 |          3 |         36 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Models\LessonDescription.cs                                         | C#         |         19 |          0 |          4 |         23 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Models\MessageGroup.cs                                              | C#         |         26 |          0 |          4 |         30 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Models\MessageTeacher.cs                                            | C#         |         24 |          0 |          3 |         27 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Models\Period.cs                                                    | C#         |         25 |          0 |          4 |         29 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Models\PlannedExam.cs                                               | C#         |         22 |          0 |          2 |         24 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Models\Propitious.cs                                                | C#         |         25 |          0 |          3 |         28 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Models\PropitiousType.cs                                            | C#         |         21 |          0 |          4 |         25 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Models\RegisterLesson.cs                                            | C#         |         88 |          0 |          5 |         93 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Models\Student.cs                                                   | C#         |         38 |          0 |          3 |         41 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Models\StudentClass.cs                                              | C#         |         18 |          0 |          3 |         21 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Models\Subject.cs                                                   | C#         |         44 |          0 |          4 |         48 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Models\Timetable.cs                                                 | C#         |         30 |          3 |          3 |         36 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Models\TimetableDeleted.cs                                          | C#         |         32 |          0 |          3 |         35 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Models\User.cs                                                      | C#         |         48 |          2 |          5 |         55 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Program.cs                                                          | C#         |         26 |          4 |          7 |         37 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Properties\launchSettings.json                                      | JSON       |         31 |          0 |          1 |         32 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Repositories\Classes\AuthRepository.cs                              | C#         |         37 |          0 |          5 |         42 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Repositories\Classes\BasicRepository.cs                             | C#         |         62 |          2 |          8 |         72 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Repositories\Classes\StudentAuthRepository.cs                       | C#         |         37 |          0 |          6 |         43 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Repositories\Classes\StudentRepository.cs                           | C#         |        295 |          3 |         39 |        337 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Repositories\Classes\TeacherAuthRepository.cs                       | C#         |         97 |          5 |         19 |        121 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Repositories\Classes\TeacherRepository.cs                           | C#         |        754 |          8 |         84 |        846 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Repositories\Interfaces\IBasicRepository.cs                         | C#         |          8 |          0 |          1 |          9 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Repositories\Interfaces\IStudentAuthRepository.cs                   | C#         |          6 |          0 |          1 |          7 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Repositories\Interfaces\IStudentRepository.cs                       | C#         |         17 |          0 |          1 |         18 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Repositories\Interfaces\ITeacherAuthRepository.cs                   | C#         |          7 |          0 |          1 |          8 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\Repositories\Interfaces\ITeacherRepositry.cs                        | C#         |         37 |          0 |          1 |         38 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\appsettings.Development.json                                        | JSON       |          8 |          0 |          1 |          9 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\appsettings.json                                                    | JSON       |         18 |          0 |          4 |         22 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\bin\Debug\net6.0\appsettings.Development.json                       | JSON       |          8 |          0 |          1 |          9 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\bin\Debug\net6.0\appsettings.json                                   | JSON       |         18 |          0 |          4 |         22 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\bin\Debug\net6.0\enaplo.deps.json                                   | JSON       |      1,075 |          0 |          0 |      1,075 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\bin\Debug\net6.0\enaplo.runtimeconfig.json                          | JSON       |         20 |          0 |          0 |         20 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\enaplo.csproj                                                       | XML        |         20 |          0 |          5 |         25 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs     | C#         |          3 |          1 |          1 |          5 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\obj\Debug\net6.0\enaplo.AssemblyInfo.cs                             | C#         |          9 |          9 |          5 |         23 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\obj\Debug\net6.0\enaplo.GeneratedMSBuildEditorConfig.editorconfig   | Properties |         16 |          0 |          1 |         17 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\obj\Debug\net6.0\enaplo.GlobalUsings.g.cs                           | C#         |         16 |          1 |          1 |         18 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\obj\Debug\net6.0\enaplo.MvcApplicationPartsAssemblyInfo.cs          | C#         |          3 |          9 |          5 |         17 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\obj\Debug\net6.0\enaplo.deps.json                                   | JSON       |      1,062 |          0 |          0 |      1,062 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\obj\Debug\net6.0\project.razor.json                                 | JSON       |     16,301 |          0 |          0 |     16,301 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\obj\Debug\net6.0\staticwebassets.build.json                         | JSON       |         11 |          0 |          0 |         11 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\obj\Debug\net6.0\staticwebassets.publish.json                       | JSON       |         11 |          0 |          0 |         11 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\obj\Release\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs   | C#         |          3 |          1 |          1 |          5 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\obj\Release\net6.0\enaplo.AssemblyInfo.cs                           | C#         |          9 |         10 |          5 |         24 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\obj\Release\net6.0\enaplo.GeneratedMSBuildEditorConfig.editorconfig | Properties |         16 |          0 |          1 |         17 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\obj\Release\net6.0\enaplo.GlobalUsings.g.cs                         | C#         |         16 |          1 |          1 |         18 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\obj\enaplo.csproj.nuget.dgspec.json                                 | JSON       |        105 |          0 |          0 |        105 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\obj\enaplo.csproj.nuget.g.props                                     | XML        |         26 |          0 |          0 |         26 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\obj\enaplo.csproj.nuget.g.targets                                   | XML        |          6 |          0 |          0 |          6 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\obj\project.assets.json                                             | JSON       |      3,312 |          0 |          0 |      3,312 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\publish\appsettings.Development.json                                | JSON       |          8 |          0 |          1 |          9 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\publish\appsettings.json                                            | JSON       |         18 |          0 |          4 |         22 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\publish\enaplo.deps.json                                            | JSON       |      1,062 |          0 |          0 |      1,062 |
+| c:\Users\Admin\Desktop\Egyetem\bsc7\szakdoga\EnaploVJSRZD\enaplo\publish\enaplo.runtimeconfig.json                                   | JSON       |         20 |          0 |          0 |         20 |
+| Total                                                                                                                                |            |     27,371 |        120 |        725 |     28,216 |
++--------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

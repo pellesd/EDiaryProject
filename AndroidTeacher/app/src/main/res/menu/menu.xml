@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title="Üzenetek">
+        <menu>
+            <item
+                android:id="@+id/homeFragment"
+                android:icon="@drawable/ic_baseline_message_24"
+                android:title="@string/inboxMessages" />
+            <item
+                android:id="@+id/outputMessagesFragment"
+                android:icon="@drawable/ic_baseline_send_24"
+                android:title="@string/sentMessage" />
+        </menu>
+    </item>
+    <item android:title="Értékelés">
+        <menu>
+            <item
+                android:id="@+id/timetableFragment"
+                android:icon="@drawable/ic_baseline_timetable_24"
+                android:title="@string/timetable" />
+            <item
+                android:id="@+id/propitiousFragment"
+                android:icon="@drawable/ic_baseline_good_24"
+                android:title="@string/propitious" />
+            <item
+                android:id="@+id/admonitoryFragment"
+                android:icon="@drawable/ic_baseline_bad_24"
+                android:title="@string/postAdmonitory" />
+
+            <item
+                android:id="@+id/sumGradesFragment"
+                android:icon="@drawable/grade"
+                android:title="@string/grades" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/canteenFragment"
+        android:icon="@drawable/ic_baseline_food_24"
+        android:title="@string/canteenMenu" />
+    <item
+        android:id="@+id/myClassFragment"
+        android:icon="@drawable/classroom"
+        android:title="@string/myClass" />
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/ic_baseline_logout_24"
+        android:title="@string/logout" />
+</menu>

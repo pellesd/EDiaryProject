@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_home"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="hu.ocist.enaplo.login.ui.message.InboxMessageFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/message_list_row" >
+        <action
+            android:id="@+id/action_home_to_canteen"
+            app:destination="@id/canteenFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_timetableFragment"
+            app:destination="@id/timetableFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_messageTeacherFragment"
+            app:destination="@id/messageTeacherFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_outputMessagesFragment"
+            app:destination="@id/outputMessagesFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_admonitoryFragment"
+            app:destination="@id/admonitoryFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_propitiousFragment"
+            app:destination="@id/propitiousFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_myClassFragment"
+            app:destination="@id/myClassFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_sumGradesFragment"
+            app:destination="@id/sumGradesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/canteenFragment"
+        android:name="hu.ocist.enaplo.login.ui.canteen.CanteenFragment"
+        android:label="fragment_canteen"
+        tools:layout="@layout/fragment_with_arrows" />
+    <fragment
+        android:id="@+id/timetableFragment"
+        android:name="hu.ocist.enaplo.login.ui.timetable.TimetableFragment"
+        android:label="TimetableFragment"
+        tools:layout="@layout/timetable_list_row" >
+        <action
+            android:id="@+id/action_timetableFragment_to_registerLessonFragment"
+            app:destination="@id/registerLessonFragment" />
+        <action
+            android:id="@+id/action_timetableFragment_to_gradeFragment"
+            app:destination="@id/gradeFragment" />
+        <action
+            android:id="@+id/action_timetableFragment_to_gradesFragment"
+            app:destination="@id/gradesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/absenceFragment"
+        android:name="hu.ocist.enaplo.login.ui.absenceLate.AbsenceFragment"
+        android:label="AbsenceFragment"
+        tools:layout="@layout/absence_list_row">
+    </fragment>
+    <fragment
+        android:id="@+id/messageTeacherFragment"
+        android:name="hu.ocist.enaplo.login.ui.message.MessageTeacherFragment"
+        android:label="MessageTeacherFragment"
+        tools:layout="@layout/fragment_message_teacher" />
+    <fragment
+        android:id="@+id/outputMessagesFragment"
+        android:name="hu.ocist.enaplo.login.ui.outboxMessage.OutputMessagesFragment"
+        android:label="fragment_output_messages"
+        tools:layout="@layout/fragment_output_messages" >
+        <action
+            android:id="@+id/action_outputMessagesFragment_to_messageTeacherFragment"
+            app:destination="@id/messageTeacherFragment" />
+        <action
+            android:id="@+id/action_outputMessagesFragment_to_groupMemberFragment"
+            app:destination="@id/groupMemberFragment" />
+        <action
+            android:id="@+id/action_outputMessagesFragment_to_sendMessageToGroupFragment"
+            app:destination="@id/sendMessageToGroupFragment" />
+        <action
+            android:id="@+id/action_outputMessagesFragment_to_sendMessageToTeacherFragment"
+            app:destination="@id/sendMessageToTeacherFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/groupMemberFragment"
+        android:name="hu.ocist.enaplo.login.ui.groupMembers.GroupMemberFragment"
+        android:label="GroupMemberFragment"
+        tools:layout="@layout/group_members_list_row"/>
+    <fragment
+        android:id="@+id/sendPropitiousFragment"
+        android:name="hu.ocist.enaplo.login.ui.judgement.SendPropitiousFragment"
+        android:label="SendPropitiousFragment"
+        tools:layout="@layout/fragment_send_judgement"/>
+    <fragment
+        android:id="@+id/sendAdmonitoryFragment"
+        android:name="hu.ocist.enaplo.login.ui.judgement.SendAdmonitoryFragment"
+        android:label="SendAdmonitoryFragment"
+        tools:layout="@layout/fragment_send_judgement" />
+    <fragment
+        android:id="@+id/sendMessageToGroupFragment"
+        android:name="hu.ocist.enaplo.login.ui.sendMessage.SendMessageToGroupFragment"
+        android:label="SendMessageToGroupFragment"
+        tools:layout="@layout/fragment_send_message_to_group"/>
+    <fragment
+        android:id="@+id/sendMessageToTeacherFragment"
+        android:name="hu.ocist.enaplo.login.ui.sendMessage.SendMessageToTeacherFragment"
+        android:label="SendMessageToTeacherFragment"
+        tools:layout="@layout/fragment_send_message_to_teacher"/>
+    <fragment
+        android:id="@+id/registerLessonFragment"
+        android:name="hu.ocist.enaplo.login.ui.registerLesson.RegisterLessonFragment"
+        android:label="RegisterLessonFragment"
+        tools:layout="@layout/fragment_register_lesson">
+        <action
+            android:id="@+id/action_registerLessonFragment_to_absenceFragment"
+            app:destination="@id/absenceFragment" />
+        <action
+            android:id="@+id/action_registerLessonFragment_to_lateFragment"
+            app:destination="@id/lateFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/lateFragment"
+        android:name="hu.ocist.enaplo.login.ui.absenceLate.LateFragment"
+        android:label="LateFragment"
+        tools:layout="@layout/late_list_row"/>
+    <fragment
+        android:id="@+id/gradeFragment"
+        android:name="hu.ocist.enaplo.login.ui.grade.GradeFragment"
+        android:label="GradeFragment"
+        tools:layout="@layout/fragment_grade"/>
+    <fragment
+        android:id="@+id/gradesFragment"
+        android:name="hu.ocist.enaplo.login.ui.grade.GradesFragment"
+        android:label="GradesFragment"
+        tools:layout="@layout/fragment_grades"/>
+    <fragment
+        android:id="@+id/admonitoryFragment"
+        android:name="hu.ocist.enaplo.login.ui.judgement.AdmonitoryFragment"
+        android:label="AdmonitoryFragment"
+        tools:layout="@layout/judgement_list_row">
+        <action
+            android:id="@+id/action_admonitoryFragment_to_sendAdmonitoryFragment"
+            app:destination="@id/sendAdmonitoryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/propitiousFragment"
+        android:name="hu.ocist.enaplo.login.ui.judgement.PropitiousFragment"
+        android:label="PropitiousFragment"
+        tools:layout="@layout/judgement_list_row">
+        <action
+            android:id="@+id/action_propitiousFragment_to_sendPropitiousFragment"
+            app:destination="@id/sendPropitiousFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/myClassFragment"
+        android:name="hu.ocist.enaplo.login.ui.myClass.MyClassFragment"
+        android:label="MyClassFragment"
+        tools:layout="@layout/fragment_my_class"/>
+    <fragment
+        android:id="@+id/sumGradesFragment"
+        android:name="hu.ocist.enaplo.login.ui.grade.SumGradesFragment"
+        android:label="SumGradesFragment"
+        tools:layout="@layout/fragment_sum_grades">
+        <action
+            android:id="@+id/action_sumGradesFragment_to_studentGradesFragment"
+            app:destination="@id/studentGradesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/studentGradesFragment"
+        android:name="hu.ocist.enaplo.login.ui.grade.StudentGradesFragment"
+        android:label="StudentGradesFragment"
+        tools:layout="@layout/sum_grades_list_row"/>
+</navigation>

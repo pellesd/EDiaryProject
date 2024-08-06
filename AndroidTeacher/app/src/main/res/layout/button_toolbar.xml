@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:gravity="center" >
+
+    <ImageButton
+        android:id="@+id/left_arrow"
+        android:layout_width="?attr/actionBarSize"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/arrow_back_green"
+        android:contentDescription="@string/back_arrow"/>
+
+    <ImageButton
+        android:id="@+id/right_arrow"
+        android:layout_width="?attr/actionBarSize"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/arrow_next_green"
+        android:contentDescription="@string/right_arrow" />
+
+</LinearLayout>
